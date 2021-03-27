@@ -20,5 +20,13 @@ int main()
     {
       cout<< "max = "<< b <<'\n';
     }
+     if (a < b)
+    {
+        cout<< "min = "<< a <<'\n';
+    }
+    else
+    {
+      cout<< "min = "<< b <<'\n';
+    }
     return 0;
 }
